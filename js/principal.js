@@ -11,18 +11,18 @@ Cantidad de reprobados: 2
 Nota promedio de la sección: 57.25 
 */
 
-import CL_seccion from './CL_seccion.js';
-import Cl_estudiante from './CL_estudiante.js';
+import CL_seccion from "./CL_seccion.js";
+import Cl_estudiante from "./CL_estudiante.js";
 
 //instaciar al objeto Estudiante
-let estudiante1 = new CL_estudiante ("888", 60);
-let estudiante2 = new CL_estudiante ("777", 50);
-let estudiante3 = new CL_estudiante ("999", 40);
-let estudiante4 = new CL_estudiante ("333", 80);
-let estudiante5 = new CL_estudiante ("111", 30);
-let estudiante6 = new CL_estudiante ("333", 90);
-let estudiante7 = new CL_estudiante ("444", 48);
-let estudiante8 = new CL_estudiante ("222", 60);
+let estudiante1 = new Cl_estudiante ("888", 60);
+let estudiante2 = new Cl_estudiante ("777", 50);
+let estudiante3 = new Cl_estudiante ("999", 40);
+let estudiante4 = new Cl_estudiante ("333", 80);
+let estudiante5 = new Cl_estudiante ("111", 30);
+let estudiante6 = new Cl_estudiante ("333", 90);
+let estudiante7 = new Cl_estudiante ("444", 48);
+let estudiante8 = new Cl_estudiante ("222", 60);
 
 // instaciar el procesar
 let seccion = new CL_seccion ();
