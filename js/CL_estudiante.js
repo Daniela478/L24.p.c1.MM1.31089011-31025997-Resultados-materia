@@ -1,4 +1,4 @@
-export default class CL_estudiante {
+export default class Cl_estudiante {
     constructor (c, n) {
         this.cedula = c;
         this.notaFinal = n;
