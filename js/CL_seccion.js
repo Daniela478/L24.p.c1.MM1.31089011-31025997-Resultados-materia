@@ -7,14 +7,14 @@ export default class CL_seccion {
     }
     
     procesarestudiante (e) {
-        if (e.notaFinal <= 48){
+        if (e.notaFinal >= 48){
             this.contAprobados++;
         }
-        if (e.notaFinal > 48){
+        if (e.notaFinal < 48){
             this.contReprobados++;
         }
-        this.acumNotas+=n.notaFinal;
-        this.contEstudiantes+=n.cedula;
+        this.acumNotas+=e.notaFinal;
+        this.contEstudiantes++;
     }
     promseccion() {
         return this.acumNotas/this.contEstudiantes;
